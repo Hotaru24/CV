@@ -260,11 +260,19 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 2211cca68dd7352686e531d41efe97fae334ed15
    #portfolio-wrapper{
       display: flex;
       flex-direction: column;
    }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2211cca68dd7352686e531d41efe97fae334ed15
    /* Testimonials Section
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
