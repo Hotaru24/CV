@@ -744,6 +744,16 @@ properly.
 	   margin-right: 0;
       padding: 0 30px;
    }
+
+  #portfolio-wrapper{
+      flex-direction: column;
+      justify-content: center;
+}
+
+   .columns portfolio-item {
+      max-height: 100px;
+   }
+
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
    [class*="column"] + [class*="column"]:last-child { float: none; }
@@ -770,6 +780,8 @@ properly.
    .row { width: auto; }
 
 }
+
+
 
 /* larger screens
 --------------------------------------------------------------- */
