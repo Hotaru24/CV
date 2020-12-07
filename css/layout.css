@@ -240,7 +240,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: rgb(235, 236, 232);
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 50px;
    overflow: hidden;
 }
 
@@ -248,12 +248,13 @@ ul#nav li.current a { color: #F06000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-top: 40px;
 }
-#resume h1 span {
+#resume h1 span,
+#parcour h1 span{
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
@@ -289,7 +290,9 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
+#programmation{
+   margin-left: 9vw;
+}
 .bars {
 	width: 95%;
 	float: left;
@@ -303,6 +306,7 @@ ul#nav li.current a { color: #F06000; }
 
 #skillsContainer {
    display: flex !important;
+   margin-bottom: 20px;
 }
 
 #skillsContainer ul:last-child {
@@ -644,7 +648,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 #parcour{
    padding: 100px 0;
-   background-color: ivory;
+   background-color: rgb(235, 236, 232);
 }
 
 /* ------------------------------------------------------------------ */

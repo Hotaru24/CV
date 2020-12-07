@@ -81,7 +81,9 @@
 
          <div class="nine columns main-col">
             <h2>Qui suis-je ?</h2>
-            <p>Animé par l'envie d'apprendre et de partager mes acquis, je suis toujours à la recherche de nouveaux défis dans le domaine du développement web en région bordelaise. Spécialisé en Javascript React et en Node.js, n'hésitez pas à me contacter si vous souhaitez en apprendre plus</p>
+            <p>Animé par l'envie d'apprendre et de partager des connaissances, je suis toujours à la recherche de nouveaux défis 
+               dans le domaine du développement web en région bordelaise ou en télétravail. Spécialisé en Javascript React et en 
+               Node.js, n'hésitez pas à me contacter si vous souhaitez en apprendre plus</p>
 
             <div class="row">
 
@@ -134,7 +136,7 @@
          ">
 
             
-				<div >
+				<div id="programmation">
                <h3>Programmation</h3>
                <div id="skillsContainer">
                   <ul class="skills">
@@ -186,13 +188,14 @@
             </div>
 
             <div >
-                  <h3>Atouts <span class="info"> (Soft Skills)</span> </h3>
+                  <h3>Soft-Skills </h3>
                   <ul class="softSkills">
                      <li>- Autonomie</li>
                      <li>- Esprit d'équipe</li>
                      <li>- Capacité d’adaptation</li>
                      <li>- Rigueur</li>
                      <li>- Persévérance</li>
+                     <li>- Empathie</li>
                      <li>- Bonne gestion du stress</li>
                   </ul>
                </div>
@@ -324,6 +327,23 @@
 
                  </div>
               </div> <!-- item end -->
+
+              <div class="columns portfolio-item">
+               <div class="item-wrap">
+
+                  <a href="#modal-07" title="">
+                     <img alt="" src="images/portfolio/meto.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>Météo App</h5>
+                           <p>Développement Web</p>
+                        </div>
+                     </div>
+                     <div class="link-icon"><i class="icon-plus"></i></div>
+                  </a>
+
+               </div>
+            </div> <!-- item end -->
               
            </div> <!-- portfolio-wrapper end -->
 
@@ -339,7 +359,7 @@
 
 		      <div class="description-box">
 			      <h4>Escape Wild Horror Maze</h4>
-			      <p>Jeu coréalisé en Phaser3, avec deux autres étudiants de la Wild Code School Nantes, dans un Hackaton de 
+			      <p>Jeu coréalisé en Javascript Phaser3, avec deux autres étudiants de la Wild Code School Nantes, dans un Hackaton de 
                   24h.</p>
                <span class="categories"><i class="fa fa-tag"></i>Jeux vidéos</span>
 		      </div>
@@ -359,7 +379,7 @@
 			      <h4>Picture Gallery</h4>
 			      <p>Projet de galerie photo, avec prise de photos et application de filtres, coréalisé en React 
               avec trois autres étudiants de la Wild Code School Nantes. Le code a été réalisé en classes avant l'apprentissage 
-	      des Hooks.
+	         des Hooks.
 		
               <hr/> <p> <a href="https://picture-gallery-wcs.netlify.com/"> https://picture-gallery-wcs.netlify.com/</a></p> 
             </p>
@@ -419,7 +439,7 @@
 
             <div class="description-box">
                <h4>Faire garder son cheval</h4>
-               <p>Projet client  ayant pour objectif la refonte d'un site web Wordpress en JS React et en Node.js : https://fairegardersoncheval.fr/. La méthodologie de travail est organisée en méthode agile Scrum. 
+               <p>Site client  ayant pour objectif la refonte d'un site web Wordpress en JS React et en Node.js : https://fairegardersoncheval.fr/. La méthodologie de travail est organisée en méthode agile Scrum. 
             </p>
                <span class="categories"><i class="fa fa-tag"></i>Développement Web</span>
             </div>
@@ -454,7 +474,24 @@
             </div>
 
          </div><!-- modal-06 End -->
+         
+         <div id="modal-07" class="popup-modal mfp-hide">
 
+            <img class="scale-with-grid" src="images/portfolio/meto.png" alt="" />
+
+            <div class="description-box">
+               <h4>Météo App</h4>
+               <p>Application météo géolocalisée développée en javascript React.                  
+            </p>
+               <span class="categories"><i class="fa fa-tag"></i>Développement Web</span>
+            </div>
+
+            <div class="link-box">
+               <a  href="https://github.com/Hotaru24/Meteo_App" target="_blank"><i id="githubPop" class="fa fa-github"></i></a>
+               <a class="popup-modal-dismiss">Fermer</a>
+            </div>
+
+         </div><!-- modal-07 End -->
          
 
       </div> <!-- row End -->
@@ -622,12 +659,15 @@
 
    </footer> <!-- Footer End-->
 
-   <!-- Java Script
-   ================================================== -->
+   <!--
+   ================================================== 
+   !!! Template que j'ai utilisé en début de formation. Je code pas en Jquery depuis !!!  
+   ================================================== 
+   -->
+
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
    <script src="js/jquery.flexslider.js"></script>
    <script src="js/waypoints.js"></script>
    <script src="js/jquery.fittext.js"></script>
