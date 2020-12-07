@@ -11,6 +11,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
+   +. Parcour Section
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
@@ -269,7 +270,6 @@ ul#nav li.current a { color: #F06000; }
 .skill, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid rgb(151, 144, 144);
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -298,8 +298,28 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars .skills {
   	margin-top: 36px;
-   list-style: none;
+   list-style: none;   
 }
+
+#skillsContainer {
+   display: flex !important;
+}
+
+#skillsContainer ul:last-child {
+   margin-left: 20px;
+}
+
+.skillsLogo{
+   height: 30px;
+   width: 30px;
+   margin-right: 7px;
+};
+
+.skills li {
+   display: flex !important;
+   align-items: center !important;
+}
+
 .bars li {
    position: relative;
   	margin-bottom: 60px;
@@ -617,6 +637,14 @@ ul#nav li.current a { color: #F06000; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* +. Portfolio Section
+/* ------------------------------------------------------------------ */
+#parcour{
+   padding: 100px 0;
+   background-color: ivory;
 }
 
 /* ------------------------------------------------------------------ */

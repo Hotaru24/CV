@@ -43,15 +43,16 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Accueil</a></li>
             <li><a class="smoothscroll" href="#about">À propos</a></li>
-	         <li><a class="smoothscroll" href="#resume">Détails</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Réalisations</a></li>
+	         <li><a class="smoothscroll" href="#resume">Compétences</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#parcour">Parcour</a></li>
          </ul> 
       </nav> 
 
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Florent Pasquet</h1>
-            <h2 style="color:rgb(226, 222, 217)">Développeur Web Full-Stack Junior</h2>
+            <h2 style="color:rgb(226, 222, 217)">Développeur Web Full-Stack</h2>
             <h3> Pour en savoir <a class="smoothscroll" href="#about">plus</a>.</h3>
             <hr />
             <ul class="social">
@@ -135,15 +136,47 @@
             
 				<div >
                <h3>Programmation</h3>
-               <ul class="skills">
-                  <li>- HTML5 / CSS3 (FlexBox, Grid)</li>
-                  <li>- Bootstrap / Material-UI </li>
-                  <li>- JavaScript (ES6)</li>
-                  <li>- React (Hooks, Context API)</li>
-                  <li>- Gatsby.js</li>
-                  <li>- React-Native / Expo</li>                  
-                  <li>- MySQL</li>
-               </ul>
+               <div id="skillsContainer">
+                  <ul class="skills">
+                     <li>
+                        <img alt='' src="images/logos/HTML5.png" class="skillsLogo"/>
+                         HTML5 
+   
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/CSS.jpg" class="skillsLogo"/>
+                         CSS3 
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/JavaScript.png" class="skillsLogo"/>
+                         JavaScript (ES6)
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/React.png" class="skillsLogo"/>
+                        React
+                     </li>
+                     
+                  </ul>
+                  <ul class="skills">
+                     <li>
+                        <img alt='' src="images/logos/React.png" class="skillsLogo"/>
+                        React Native
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/Gatsby.jpg" class="skillsLogo"/>
+                        Gatsby
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/Node.png" class="skillsLogo"/>
+                        Node.js
+                     </li>
+                     <li>
+                        <img alt='' src="images/logos/MySQL.jpg" class="skillsLogo"/>
+                        MySQL
+                     </li>
+                  </ul>
+               </div>
+
                <h3>Plus</h3> 
                <ul class="skills">         
                   <li>- Veille technologique</li>
@@ -168,150 +201,16 @@
 
       </div> <!-- End Compétences -->
 
-      <!-- Expériences
-      ----------------------------------------------- -->
-      <div class="row work" id="work">
-
-         <div class="three columns header-col">
-            <h1><span>Expériences</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-		
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Développeur web full-stack Javascript</h3>
-                  <p class="info">Freelance<span>&bull;</span> <em class="date"> mai 2020 - aujourd'hui</em></p>
-
-                  <p>
-                     Site client réalisé en totale autonomie avec <strong>Gatsby.js</strong>, en utilisant les technologies 
-                     <strong>React.js</strong> et <strong>GraphQl</strong>, et une configuration de la gestion de l'espace 
-                     Admin gérée par <strong>Netlify CMS</strong>.
-                     <br />
-                     <br />
-                     (/!\ Adresse provisoire, le nom de domaine final est en cours d’acquisition par le client. Les véritables textes seront incorporés au lancement du site sur son adresse finale /!\)
-                     <br /> Site : <a  href="https://icarus-tattoo.netlify.app/" target="_blank">https://icarus-tattoo.netlify.app/</a>
-                  </p>
-
-               </div>
-
-               <div class="twelve columns">
-
-                  <h3>Développeur web full-stack Javascript</h3>
-                  <p class="info">Wild Code School<span>&bull;</span> <em class="date">nov 2019 - fev 2020</em></p>
-
-                  <p>
-                 Projet client ayant pour objectif la refonte du site web Wordpress en JS <strong> React </strong> et en <strong>Node.js </strong> https://fairegardersoncheval.fr/. 
-		La méthodologie de travail est organisée en <strong> méthode agile Scrum </strong>. 
-                  </p>
-
-               </div>
-
-            </div> <!-- item end --> 
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Professeur Lettres Histoire-Géographie</h3>
-                  <p class="info">Education nationale <span>&bull;</span> <em class="date">2017 - 2019</em></p>
-
-                  <p>
-                  Durant mes années de professorat au lycée Louis Bascan de Rambouillet (78), j'ai pu acquérir des compétences
-                  en <span class="strong">prise en charge de groupes</span> ainsi qu'en <span class="strong">conception et encadrement 
-                  de projets</span> avec mes élèves et collègues (ex: rencontres théâtrales en collaboration avec une troupe d'acteurs 
-                  et d'autres établissements). J'ai également pu enrichir mes <span class="strong">qualités relationnelles</span>, et mon 
-                  <span class="strong">aisance à l'oral</span>.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Technicien de fouilles archéologiques </h3>
-                  <p class="info">Archéologie - Divers<span>&bull;</span> <em class="date">2012 - 2016</em></p>
-
-                  <p>
-                  Participation à de multiples opérations archéologiques dans les milieux professionnels (Inrap) et bénévoles, qui m'ont 
-                  familiarisé avec le <span class="strong">travail d'équipe</span> et avec le fait de travailler sur des <span class="strong">projets 
-                  de grandes envergures</span>.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Expériences -->
-
-      <!-- Formations
-      ----------------------------------------------- -->
-      <div class="row education" id="education">
-
-         <div class="three columns header-col">
-            <h1><span>Formations</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-            
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Formation développeur Web full-stack (Bac+2)</h3>
-                  <p class="info">Wild Code School Nantes<span>&bull;</span> <em class="date">2019 / 2020</em></p>
-
-                  <p>
-                  Formation intensive portant sur les technologies listées en <a class="smoothscroll" href="#skills">compétences</a>.
-                  Le parcours comprend entre autres trois <span class="strong">Hackatons</span> et trois <span class="strong">projets</span>
-		  réalisés en <span class="strong">méthode agile (Scrum)</span>, dont un projet de plusieurs mois avec<span class="strong">clients réels</span>.
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-            
-<!-------------------------------------------------------------------------------------------------------------------------------->
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Etudes d'Histroire & Archéologie (Bac+5)</h3>
-                  <p class="info">Université Bordeaux Montaigne <span>&bull;</span> <em class="date">2009 - 2015</em></p>
-
-                  <p> Parcour universitaire ouvrant sur l'obtention d'une <span class="strong">Licence d'Histoire</span>, 
-                     d'un <span class="strong">Master recherche en Histoire et Archéologie</span>, et d'un 
-                     <span class="strong">Master professionnel en Archéologie</span>. Ces études m'ont permi d'acquérir de solides 
-                     compétences en <span class="strong">veille scientifique</span>, en <span class="strong">capacité de rédaction</span>, 
-                     ainsi qu'une aptitude à <span class="strong">travailler à la fois en autonomie et en équipe</span>.                   
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-            
-          <!-------------------------------------------------------------------------------------------------------------------------------->
-            
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Formations -->
+      
 
    </section> <!-- Détails Section End-->
 
 
-   <!-- Réalisation Section
+    <!-- Réalisation Section
    ================================================== -->
    <section id="portfolio">
 
-      <h1>Réalisations</h1>
+      <h1>Portfolio</h1>
       <div class="row">
 
          <div class="twelve columns collapsed">
@@ -441,7 +340,7 @@
 		      <div class="description-box">
 			      <h4>Escape Wild Horror Maze</h4>
 			      <p>Jeu coréalisé en Phaser3, avec deux autres étudiants de la Wild Code School Nantes, dans un Hackaton de 
-                  24h. Il est depuis régulièrement mis à jour.</p>
+                  24h.</p>
                <span class="categories"><i class="fa fa-tag"></i>Jeux vidéos</span>
 		      </div>
 
@@ -563,6 +462,144 @@
    </section> <!-- Réalisations Section End-->
 
 
+   <!-- Parcour Section
+   ================================================== -->
+
+
+   <section id="parcour">
+      <!-- Expériences
+      ----------------------------------------------- -->
+      <div class="row work" id="work">
+
+         <div class="three columns header-col">
+            <h1><span>Expériences</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+		
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Développeur web full-stack Javascript</h3>
+                  <p class="info">Freelance<span>&bull;</span> <em class="date"> mai 2020 - aujourd'hui</em></p>
+
+                  <p>
+                     Réalisation de projets en <strong>Javascript React</strong>, <strong>React native</strong> et <strong>Node.js</strong> à retrouver dans le <a class="smoothscroll" href="#portfolio">portfolio</a>.
+                  </p>
+
+               </div>
+
+               <div class="twelve columns">
+
+                  <h3>Développeur web full-stack Javascript</h3>
+                  <p class="info">Wild Code School<span>&bull;</span> <em class="date">nov 2019 - fev 2020</em></p>
+
+                  <p>
+                 Projet client ayant pour objectif la refonte du site web Wordpress en JS <strong> React </strong> et en <strong>Node.js </strong> https://fairegardersoncheval.fr/. 
+		            La méthodologie de travail est organisée en <strong> méthode agile Scrum </strong>. 
+                  </p>
+
+               </div>
+
+            </div> <!-- item end --> 
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Professeur Lettres Histoire-Géographie</h3>
+                  <p class="info">Education nationale <span>&bull;</span> <em class="date">2017 - 2019</em></p>
+
+                  <p>
+                  Durant mes années de professorat au lycée Louis Bascan de Rambouillet (78), j'ai pu acquérir des compétences
+                  en <span class="strong">prise en charge de groupes</span> ainsi qu'en <span class="strong">conception et encadrement 
+                  de projets</span> avec mes élèves et collègues (ex: rencontres théâtrales en collaboration avec une troupe d'acteurs 
+                  et d'autres établissements). J'ai également pu enrichir mes <span class="strong">qualités relationnelles</span>, et mon 
+                  <span class="strong">aisance à l'oral</span>.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Technicien de fouilles archéologiques </h3>
+                  <p class="info">Archéologie - Divers<span>&bull;</span> <em class="date">2012 - 2016</em></p>
+
+                  <p>
+                  Participation à de multiples opérations archéologiques dans les milieux professionnels (Inrap) et bénévoles, qui m'ont 
+                  familiarisé avec le <span class="strong">travail d'équipe</span> et avec le fait de travailler sur des <span class="strong">projets 
+                  de grandes envergures</span>.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Expériences -->
+
+      <!-- Formations
+      ----------------------------------------------- -->
+      <div class="row education" id="education">
+
+         <div class="three columns header-col">
+            <h1><span>Formations</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Formation développeur Web full-stack (Bac+2)</h3>
+                  <p class="info">Wild Code School Nantes<span>&bull;</span> <em class="date">2019 / 2020</em></p>
+
+                  <p>
+                  Formation intensive portant sur les technologies listées en <a class="smoothscroll" href="#skills">compétences</a>.
+                  Le parcours comprend entre autres trois <span class="strong">Hackatons</span> et trois <span class="strong">projets</span>
+		  réalisés en <span class="strong">méthode agile (Scrum)</span>, dont un projet de plusieurs mois avec<span class="strong">clients réels</span>.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+            
+                  <!-------------------------------------------------------------------------------------------------------------------------------->
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Etudes d'Histroire & Archéologie (Bac+5)</h3>
+                  <p class="info">Université Bordeaux Montaigne <span>&bull;</span> <em class="date">2009 - 2015</em></p>
+
+                  <p> Parcour universitaire ouvrant sur l'obtention d'une <span class="strong">Licence d'Histoire</span>, 
+                     d'un <span class="strong">Master recherche en Histoire et Archéologie</span>, et d'un 
+                     <span class="strong">Master professionnel en Archéologie</span>. Ces études m'ont permi d'acquérir de solides 
+                     compétences en <span class="strong">veille scientifique</span>, en <span class="strong">capacité de rédaction</span>, 
+                     ainsi qu'une aptitude à <span class="strong">travailler à la fois en autonomie et en équipe</span>.                   
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+            
+          <!-------------------------------------------------------------------------------------------------------------------------------->
+            
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Formations -->
+   </section>
+
+
+  
    <!-- footer
    ================================================== -->
    <footer>
