@@ -22,9 +22,15 @@
 }
 
 /* screenwidth less than 900px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 900px) {
+  ==============================================================================
+  ============================================================================== */
 
+@media only screen and (max-width: 1100px) {
+   .row {
+      width: 96%;
+      max-width: 93% !important;
+      margin: 0 auto;
+   }
     /* header styles
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
@@ -59,12 +65,19 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume h1 { font-size: 1.8em 'opensans-bold', sans-serif; }
    #resume .main-col { padding-right: 5%; }   
    #competences{
       display: flex;
       flex-direction: column;
     }
+    #programmation{
+       margin-bottom: 30px;
+    }
+
+    #softSkillsContainer{
+      margin-left: 9vw;
+   }
 
    /* Testimonials Section
    ------------------------------------------------------------------- */
@@ -97,10 +110,16 @@
 }
 
 /* mobile wide/smaller tablets
----------------------------------------------------------------------- */
+  ==============================================================================
+  ============================================================================== */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 810px) {
 
+   .row {
+      width: 96%;
+      max-width: 96% !important;
+      margin: 0 auto;
+   }
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
@@ -230,6 +249,15 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
+
+   #parcour h1 span{
+      border-bottom: 3px solid #11ABB0;
+      padding-bottom: 6px;
+      font-size: 0.8em !important;
+   }
+   #resume{
+      padding: 0;
+   }
    #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -240,6 +268,34 @@
    #resume h3, #resume .info { text-align: center; }
       
    .bars { width: 100%; }
+
+   #programmation{
+      margin:0 0 30px 0;
+   }
+
+   #softSkillsContainer{
+      margin-left: 9vw;
+   }
+
+   #skillsContainer {
+      display: flex !important;
+      margin-bottom: 20px;
+      justify-content: center;
+   }
+
+   .skills li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 110px
+   }
+
+   .softSkills{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
 
 
    /* Call To Action Section
@@ -273,7 +329,10 @@
 =======
 
 >>>>>>> 2211cca68dd7352686e531d41efe97fae334ed15
-   /* Testimonials Section
+   
+
+
+/* Testimonials Section
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
    #testimonials h1 {
@@ -295,6 +354,9 @@
       text-align: center;
       margin-left: -30px;
    }
+   /* Parcour Section
+   ----------------------------------------------------------------------- */
+ 
 
 
    /* contact Section
@@ -354,7 +416,8 @@
 }
 
 /* mobile narrow
-  -------------------------------------------------------------------------- */
+  ==============================================================================
+  ============================================================================== */
 
 @media only screen and (max-width: 480px) {
 
